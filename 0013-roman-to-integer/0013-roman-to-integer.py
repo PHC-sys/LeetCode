@@ -47,7 +47,6 @@ class Solution(object):
                 break
 
             two_str = s[n:n+2]
-            print(two_str[0],type(two_str[0]))
             if two_str not in exception:
                 result += converter(two_str[0])
                 n += 1
